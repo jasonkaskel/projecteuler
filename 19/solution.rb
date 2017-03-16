@@ -12,6 +12,7 @@
 #   but not on a century unless it is divisible by 400.
 # How many Sundays fell on the first of the month during
 #   the twentieth century (1 Jan 1901 to 31 Dec 2000)?
+# Time to complete: 40 minutes
 
 def year_month_day_day_of_week(days)
   start_day_of_week = 2 # 1901-01-01; Tuesday
