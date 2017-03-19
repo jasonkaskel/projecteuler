@@ -13,7 +13,7 @@
 
 def divisors_of(n)
   divisors = [1]
-  (2..n/2).each_with_object(divisors) do |i, divisors|
+  (2..Math.sqrt(n)).each_with_object(divisors) do |i, divisors|
     divisors << i if n % i == 0
   end
 end
