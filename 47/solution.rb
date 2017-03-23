@@ -11,7 +11,7 @@
 
 # Find the first four consecutive integers to have four distinct prime factors each.
 #  What is the first of these numbers?
-# Time to complete: 7:45
+# Time to complete: 15 minutes
 
 require_relative '../lib/util'
 
