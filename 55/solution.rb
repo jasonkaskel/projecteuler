@@ -26,6 +26,7 @@
 
 # NOTE: Wording was modified slightly on 24 April 2007 to emphasise the theoretical
 #  nature of Lychrel numbers.
+# Time to complete: 10 minutes
 
 def palindrome?(num)
   num.to_s == num.to_s.reverse

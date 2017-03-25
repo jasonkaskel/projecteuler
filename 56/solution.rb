@@ -4,6 +4,7 @@
 
 # Considering natural numbers of the form, a ** b, where a, b < 100,
 #  what is the maximum digital sum?
+# Time to complete: 5 minutes
 
 def digital_sum(n)
   n.to_s.split(/(?=.)/).map(&:to_i).reduce(:+)

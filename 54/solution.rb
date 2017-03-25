@@ -43,6 +43,7 @@
 #  there is a clear winner.
 
 # How many hands does Player 1 win?
+# Time to complete: 2 hours
 
 class Card
   attr_accessor :rank, :suit
