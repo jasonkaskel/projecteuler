@@ -18,6 +18,7 @@
 # Your task has been made easy, as the encryption key consists of three lower case characters.
 #  Using the encrypted ASCII codes below, and the knowledge that the plain text must contain
 #  common English words, decrypt the message and find the sum of the ASCII values in the original text.
+# Time to complete: 20 minutes
 
 def decrypt_chars(chars, key)
   chars.each.with_index.reduce('') do |str, (char, idx)|
